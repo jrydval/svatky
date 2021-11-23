@@ -35,7 +35,7 @@ func init() {
 		month := dateItems[1]
 		day := dateItems[0]
 
-		log.Printf("%s -> %s - %s %s ", name, date, day, month)
+//		log.Printf("%s -> %s - %s %s ", name, date, day, month)
 		dateShort := day + "." + month + "."
 		Svatky = append(Svatky, Svatek{name, dateShort})
 	}
@@ -57,7 +57,7 @@ func GetSvatekByDate(date string) string {
 			}
 		}
 	}
-	log.Println(jmenaOut)
+//	log.Println(jmenaOut)
 
 	return jmenaOut
 }
