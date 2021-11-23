@@ -2,7 +2,8 @@ package main
 
 import (
 	"log"
-	"svatky"
+
+	"github.com/jrydval/svatky"
 )
 
 func main() {
